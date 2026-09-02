@@ -35,12 +35,9 @@ string_list = []
 for i in range(n):
     string_list.append(input("Enter string: "))
 target_string=(input("Enter the target string "))
-# Create an object of the class
 searcher = StringSearcher()
-# Sort the list using the sort function
 sorted_list = searcher.sort_list(string_list)
 print("Sorted list:", sorted_list)
-# Search for the string
 result_index = searcher.binary_search(sorted_list, target_string)
 if result_index != 2:
     print(f"Found '{target_string}' at index {result_index}.")
