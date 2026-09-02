@@ -42,3 +42,4 @@ B = [[5, 6],
 result = matrix_multiply(A, B)
 
 print(result)
+

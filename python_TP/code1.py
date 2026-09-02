@@ -4,7 +4,7 @@ n = int(input("Enter a number n "))
 string_list = []
 
 for i in range(n):
-    u_s = input(f"Enter string: ")
+    u_s = input("Enter string: ")
     string_list.append(u_s)
 
 print("Your list:", string_list)
