@@ -41,7 +41,7 @@ for item in result:
         yellow.append(item)
 
 
-with open("blue_cones.csv", "w", newline="") as f:
+
     writer = csv.writer(f)
     writer.writerow(["id", "x", "y", "colour"])  
     for item in blue:

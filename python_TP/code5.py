@@ -9,7 +9,6 @@ def build_hash_table(n):
 
     return table
 def print_hash_table(table):
-
     for i in range(len(table)):
         print(f"{i}: {table[i]}")
 n = int(input("How many numbers? "))
